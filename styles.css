@@ -113,7 +113,7 @@ main {
   align-items: center;
   gap: 1rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   border: 1px solid rgb(231, 231, 231);
   padding: 1rem;
   border-radius: 1rem;
@@ -199,7 +199,7 @@ footer > div {
   text-decoration: underline;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 480px) {
   .nav-container-second .text-link {
     display: block;
   }
@@ -218,5 +218,11 @@ footer > div {
 
   .title-text {
     font-size: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-text {
+    font-size: 7rem;
   }
 }
