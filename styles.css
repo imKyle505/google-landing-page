@@ -46,6 +46,10 @@ header {
   text-decoration: underline;
 }
 
+.nav-container-second .text-link {
+  display: none;
+}
+
 .icon-link {
   font-size: 1rem;
   color: inherit;
@@ -84,7 +88,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 .title-text {
@@ -157,4 +161,63 @@ main {
 
 .button-grid button:hover {
   border: 1px solid rgb(189, 195, 200);
+}
+
+/* End Main Styling */
+
+/* Start Footer Styling */
+
+footer {
+  background-color: #f2f2f2;
+  font-size: 0.7rem;
+}
+
+footer > div {
+  padding: 1rem;
+}
+
+.footer-grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .nav-container-second .text-link {
+    display: block;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    font-size: 0.8rem;
+  }
+
+  .title-text {
+    font-size: 6rem;
+  }
 }
