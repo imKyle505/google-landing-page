@@ -7,7 +7,9 @@ This project was completed with the help of [Smoljames' YouTube tutorial.](https
 ## 🎯 Project Overview
 
 ✅ A simple, clean recreation of Google's homepage
+
 ✅ Built using HTML & CSS
+
 ✅ No major functionality—just for visual practice
 
 ## 🚀 Live Demo
